@@ -1,0 +1,41 @@
+:root{
+    --white: #ededed;
+    --black: #333;
+    --yellow: yellow;
+    --purple: purple;
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0 14rem 1.2rem 14rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+header>h1{
+    font-size: 3rem;
+}
+
+#log-in{
+    background-color: var(--white);
+    transition: transform .3sec ease-in-out;
+    border: none;
+    width: 3rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log-in:hover{
+    background-color: var(--black);
+    color: white;
+    transform: scale(1.2);
+}
